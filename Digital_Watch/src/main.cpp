@@ -100,18 +100,19 @@ void loop() {
     display.print(D); display.print("-"); display.print(M); display.print("-"); display.println(Y); 
     
     display.setCursor(1,0);
-    display.drawBitmap(40, 20, logo, 50, 44, WHITE);
+    display.drawBitmap(40, 20, logo, 50, 44, WHITE);  // Draw logo 
     display.display();
     delay(200);
 
   }
-
+  // Increase +1 minute every time the button 4 is press
   if (bt4 && !pvbt4) {
      DateTime now = rtc.now();
      int mm = now.minute() + 1;
      if (mm >= 60) mm = 0;
      rtc.adjust(DateTime(now.year(), now.month(), now.day(), now.hour(), mm, now.second()));
   }
+  // Increase +1 hour every time the button 5 is press
   if (bt5 && !pvbt5) {
      DateTime now = rtc.now();
      int hh = now.hour() + 1;

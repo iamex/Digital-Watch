@@ -28,7 +28,7 @@ The digital watch is powered by 5V through a voltage regulator (LM7805) with inp
 - Multimeter
 - Wire cutters and strippers
 
-## Possible Upgrades
+### Possible Upgrades
 - Develop a PCB to replace the current protoboard setup for a more reliable and compact solution.
 - Software Enhancements additional features such as date modification and a menu system
 

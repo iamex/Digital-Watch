@@ -7,7 +7,7 @@ The digital watch is powered by 5V through a voltage regulator (LM7805) with inp
 ## Circuit diagram
 ![image](https://github.com/iamex/Digital-Watch/assets/26520401/f68d87b6-fefa-4a55-9621-cf437e1b9304)
 
-## Components Used 
+## Components list
 - ATmega328p
 - TM1637 7-segment display
 - OLED I2C display with SSH1106 Chip (128 x 64 resolution)

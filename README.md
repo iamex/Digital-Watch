@@ -12,11 +12,14 @@ The digital watch is powered by 5V through a voltage regulator (LM7805) with inp
 - TM1637 7-segment display
 - OLED I2C display with SSH1106 Chip (128 x 64 resolution)
 - RTC DS3231
-- USB-UART FTDI FT232RL adapter
+- USB-UART FTDI FT232RL adapter, only for programming
 - 2 NO (Normally Open) switches (buttons)
 - 3 resistors (10K ohms each)
 - 2 ceramic capacitors (20 pF each)
 - 1 quartz crystal (16 MHz)
+- LM7805
+- C1,C4 = 100uF
+- C2,C3 = 100nF
 - Jumper wires
 - Breadboard
 - Protoboard

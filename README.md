@@ -27,7 +27,6 @@ The digital watch is powered by 5V through a voltage regulator (LM7805) with inp
 
 ## Tools Used
 - Soldering iron
-- Solder
 - Bench power supply
 - Multimeter
 - Wire cutters and strippers
